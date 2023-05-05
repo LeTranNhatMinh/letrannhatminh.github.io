@@ -19,17 +19,42 @@
         margin: 20px;
         margin-bottom: 30px;
       }
+      header {
+        width: 100%;
+        height: 300px;
+        background-color: aqua;
+      }
+      #intro {
+        display: inline-block;
+      }
+      #login li {
+        float: right;
+        display: block;
+        margin: 0 8px;
+      }
+      #login {
+        margin: -220px 0;
+      }
+      #login a {
+        text-decoration: none;
+        color: bisque;
+      }
+      #login a:hover {
+        color: red;
+      }
     </style>
   </head>
   <body>
     <header>
-      <div>      
+      <div id="intro">
         <h1>Ngôn ngữ lập trình website</h1>
         <p>HTML: Giúp bạn thêm nội dung cho trang web.</p>
-        <p>CSS: Định dạng thiết kế, bố cục, phong cách, canh lề của trang web.</p>
+        <p>
+          CSS: Định dạng thiết kế, bố cục, phong cách, canh lề của trang web.
+        </p>
         <p>JavaScript: Cải thiện cách hoạt động của trang web.</p>
       </div>
-      <div>
+      <div id="login">
         <ul>
           <li>
             <a href="/dangky.html"><h4>Đăng Ký</h4></a>
@@ -108,7 +133,5 @@
         để có thể biết thêm chi tiết thông tin về các ngôn ngữ lập trình
       </h3>
     </div>
-
-
   </body>
 </html>
