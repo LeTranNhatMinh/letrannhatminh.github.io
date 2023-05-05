@@ -61,7 +61,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-    background-image: url("/img/showcase.jpg"); 
+    background-image: url("../img/showcase.jpg"); 
     height: 500px; 
     background-position: center; 
     background-repeat: no-repeat;
