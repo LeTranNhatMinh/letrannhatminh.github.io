@@ -67,6 +67,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    height: 600px; 
     width: 100%;
     position: relative;
 }
