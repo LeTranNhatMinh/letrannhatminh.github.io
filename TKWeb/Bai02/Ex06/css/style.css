@@ -38,7 +38,7 @@ header li{
 header #branding{
       margin-left: 70px;
 }
-  
+
 header #branding h1{
   font-size: 34px;
   line-height: 50px;
@@ -59,11 +59,10 @@ header a:hover{
   
 }
 
-
 /* Showcase */
 #showcase{
     background-image: url("/img/showcase.jpg"); 
-    height: 600px; 
+    height: 500px; 
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
