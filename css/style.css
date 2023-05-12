@@ -4,6 +4,9 @@
   text-decoration: none;
   list-style-type: none;
 }
+body {
+  font-family: 'Arial';
+}
 #main {
   z-index: 1;
   height: 64px;
@@ -101,7 +104,6 @@
   margin: auto;
   height: 240px;
   margin-top: 50px;
-  /* margin-bottom: 50px; */
 }
 .para-content p {
   font-weight: 500;
@@ -242,7 +244,6 @@ footer {
   border: 2px solid #000;
   width: 75%;
   text-align: center;
-  height: 370px;
   margin-left: 100%;
   margin-top: -378px;
 }
@@ -250,8 +251,8 @@ footer {
   display: inline-block;
   border: 1px solid rgb(6, 6, 6);
   margin: 12px 16px 18px 16px;
-  width: 220px;
-  height: 156px;
+  width: 38%;
+  height: 42%;
 }
 .ht-tour-img {
   width: 100px;
@@ -259,7 +260,40 @@ footer {
   margin-top: 8px;
   border: 1.6px solid rgb(6, 6, 6);
 }
+.main-food-title,
+.tourism-title,
+#main-intro-title,
+#slogan {
+  font-family: 'Franklin Gothic Medium';
+}
 
 #main-food {
-  margin-top: 30px;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+.main-food-title h1 {
+  font-size: 62px;
+}
+.name-food {
+  font-size: 24px;
+}
+.ti-para-food {
+  width: 80%;
+}
+.ti-para-food h3{
+  margin-top: 40px;
+}
+.ti-para-food p{
+  font-size: 22px;
+  text-align: justify;
+  margin: 20px 0 20px 10px;
+}
+.place-food-img {
+  width: 40%;
+  height: 300px;
+  margin: 18px 0 18px 80px;
+}
+.foot-food {
+  font-size: 28px;
 }
