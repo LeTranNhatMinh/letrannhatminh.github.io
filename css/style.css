@@ -189,6 +189,7 @@ footer {
 }
 #more-info a:hover {
   opacity: 0.6;
+  color: rgb(1, 15, 214);
 }
 .main-tourism-title {
   background-color: blue;
