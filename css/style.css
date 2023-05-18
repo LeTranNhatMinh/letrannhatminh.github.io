@@ -52,7 +52,7 @@ body {
 }
 .nav-main li {
   display: inline-block;
-  margin: 0 10px;
+  margin-right: 20px;
   font-size: 26px;
 }
 .nav-main {
