@@ -1,0 +1,68 @@
+@media (max-width: 1023px) {
+  .place-city {
+    display: block;
+    width: 100%;
+  }
+  .logo-city .name-city {
+    font-size: 40px;
+  }
+  .border,
+  .name-city {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (max-width: 739px) {
+  .border,
+  .name-city,
+  .logo-city {
+    overflow: hidden;
+    width: 0;
+    height: 0;
+  }
+  .nav-main a {
+    font-size: 19px;
+  }
+  .para-content h2 {
+    font-size: 56px;
+  }
+  .introduce {
+    width: 80%;
+  }
+  .list-ht-tour {
+    margin: 0;
+  }
+  .ti-para-tour {
+    width: 99%;
+  }
+  .place-tour-img,
+  .list-ht-tour {
+    width: 100%;
+  }
+  .list-tourism {
+    margin: 30px 12px 0 12px;
+  }
+  #main-food {
+    margin-left: 20px;
+  }
+  .main-food-title h1,
+  .ti-para-food h3 {
+    margin: 0;
+  }
+  .main-food-title h1 {
+    font-size: 50px;
+  }
+  .ti-para-food h3 {
+    width: 124%;
+    margin: 20px 0;
+    font-size: 26px;
+  }
+  .ti-para-food p {
+    width: 116%;
+  }
+  .img-pl {
+    width: 120%;
+  }
+}
